@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- css style linked -->
+
+     <style>
+         *{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/* banner section */
+
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+/* services section start here */
+
+#services
+{
+ padding: 80px 0;   
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.services 
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    transform: translateY(7.50px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+
+/* about us section here */
+
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li 
+{
+    margin: 10px 0;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials
+{
+    margin: 100px 0;
+}
+.testimonials
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* social media section start here */
+
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/* footer section */
+
+#footer
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box 
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa-solid
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    
+}
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+     </style>
+
+    <!-- font Awesome linked -->
+
+    <script src="https://kit.fontawesome.com/a0937d4b73.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Agency Website</title>
+  </head>
+  <body>
+
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/demo-logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#top">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-us">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">TESTIMONIAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </section>
+
+    <!-- banner section here -->
+
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="promo-title">BEST DIGITAL AGENCY</p>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Laudantium, delectus debitis laboriosam, ducimus ea ad nemo pariatur 
+              dolores excepturi rerum vitae eaque ut et, numquam magnam a exercitationem ipsa dolorem!
+            </P>
+            <a href="#"><img src="images/play.png" class="play-btn">Watch tutorials</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/home2.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <img src="images/wave1.png" class="bottom-img">
+
+    </section>
+
+    <!-- services section here -->
+
+    <section id="services">
+
+      <div class="container text-center">
+        <h1 class="title">WHAT WE DO ? </h1>
+        <div class="row text-center">
+          <div class="col-md-4 services">
+            <img src="images/service1.png" class="service-img">
+            <h4>Growth Marketing</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio beatae eius, 
+              velit voluptatibus aliquam assumenda cumque in sapiente adipisci id?
+            </p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="images/service2.png" class="service-img">
+            <h4>Online Branding</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio beatae eius, 
+              velit voluptatibus aliquam assumenda cumque in sapiente adipisci id?
+            </p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="images/service3.png" class="service-img">
+            <h4>Animated Ads</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio beatae eius, 
+              velit voluptatibus aliquam assumenda cumque in sapiente adipisci id?
+            </p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">All Services</button>
+      </div>
+
+    </section>
+
+    <!-- about us  -->
+
+    <section id="about-us">
+      <div class="container">
+        <h1 class="title text-center">WHY CHOOSE US ? </h1>
+        <div class="row">
+          <div class="col-md-6 about-us">
+            <p class="about-title">Why we're different</p>
+            <ul>
+              <li>Believe in doing buisness with honesty</li>
+              <li>Believe in doing buisness with honesty</li>
+              <li>Believe in doing buisness with honesty</li>
+              <li>Believe in doing buisness with honesty</li>
+              <li>Believe in doing buisness with honesty</li>
+              <li>Believe in doing buisness with honesty</li>
+              <li>Believe in doing buisness with honesty</li>
+              <li>Believe in doing buisness with honesty</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="images/network.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- TESTIMONIAL start here  -->
+
+    <section id="testimonials">
+      <div class="container">
+        <h1 class="title text-center">WHAT CLIENTS SAY</h1>
+        <div class="row offset-1">
+          <div class="col-md-5 testimonials">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio beatae eius, 
+            velit voluptatibus aliquam assumenda cumque in sapiente adipisci id?
+          </p>
+          <img src="images/user1.jpg">
+          <p class="user-details"><b>Agelina</b><br>Co-founder at xyz</p>
+          </div>
+          <div class="col-md-5 testimonials">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio beatae eius, 
+              velit voluptatibus aliquam assumenda cumque in sapiente adipisci id?
+            </p>
+            <img src="images/user2.jpg">
+            <p class="user-details"><b>john doe</b><br>Director at xyz</p>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- social media section -->
+
+    <section id="social-media">
+
+      <div class="container text-center">
+        <p>FIND US ON SOCIAL MEDIA</p>
+        <div class="social-icons">
+          <a href="#"><img src="images/facebook-icon.png"></a>
+          <a href="#"><img src="images/instagram-icon.png"></a>
+          <a href="#"><img src="images/twitter-icon.png"></a>
+          <a href="#"><img src="images/whatsapp-icon.png"></a>
+          <a href="#"><img src="images/linkedin-icon.png"></a>
+          <a href="#"><img src="images/snapchat-icon.png"></a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- footer section -->
+    <section id="footer">
+      <img src="images/wave2.png" class="footer-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="images/demo-logo.png">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam,
+                 voluptate tenetur? Natus consequuntur beatae eveniet fugiat recusandae suscipit
+                  ullam rerum id ipsum, dolorum rem debitis odio, aliquid, nesciunt odit aperiam?
+                </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT US</b></p>
+            <P><i class="fa-solid fa-location-dot"></i>167/3 Govindhpuri kalkaji, Delhi</P>
+            <p><i class="fa-solid fa-phone"></i>9304291904</p>
+            <p><i class="fa-solid fa-envelope"></i>mdekram9122@gmail.com</p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE NEWSLETTER</b></p>
+            <input type="email" class="form-control" placeholder="your email">
+            <button type="button" class="btn btn-primary">subscribe</button>
+          </div> 
+        </div>
+        <hr>
+        <p class="copyright">Website create by Ekram</p>
+      </div>
+
+    </section>
+
+    <script src="smooth-scroll.js"></script>
+    <script>
+           var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
